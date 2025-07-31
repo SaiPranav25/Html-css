@@ -22,10 +22,39 @@ html,body{
 }
 
 .shape{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: #f0f0f0;
     border: 2px solid #ccc;
-    /* display: flex; */
-       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+#circle{
+    border-radius: 50%;
+
+}
+#diamond{
+    rotate: 45deg;
+    margin-bottom: 50px;
+    translate:30px;
+    width:141px;
+
+    height:141px;
+}
+#diamond h1{
+    transform: rotate(-45deg);
+}
+
+#diamond:hover{
+    background-color: red;
+}
+#square:hover{
+    background-color: green;
+}
+#circle:hover{
+    background-color: blue;
 }
